@@ -1,43 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
   <title>blog — kendin için kodla</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-  <link rel="stylesheet" href="../static/style.css">
-  <script src="../static/kendinicinkodla.js"></script>
+  <link rel="stylesheet" href="../static/kendinicinkodla.css">
+
+  <script src="../static/bulma.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
+
 <body>
+
   <header role="banner">
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item" href="../">kendin için kodla</a>
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+        <span role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+        </span>
       </div>
+
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-start">
           
-          <a class="navbar-item class="has-text-primary"" href="../blog/">blog</a>
+          <span class="navbar-item">
+            <a class="button is-black is-outlined is-active" href="../blog/">
+              <span class="icon">
+                <i class="fa fa-book"></i>
+              </span>
+              <span>blog</span>
+            </a>
+          </span>
           
-          <a class="navbar-item" href="../projeler/">projeler</a>
+          <span class="navbar-item">
+            <a class="button is-black is-outlined" href="../projeler/">
+              <span class="icon">
+                <i class="fa fa-book"></i>
+              </span>
+              <span>projeler</span>
+            </a>
+          </span>
           
-          <a class="navbar-item" href="../biz-kimiz/">biz kimiz?</a>
+          <span class="navbar-item">
+            <a class="button is-black is-outlined" href="../biz-kimiz/">
+              <span class="icon">
+                <i class="fa fa-book"></i>
+              </span>
+              <span>biz kimiz?</span>
+            </a>
+          </span>
           
         </div>
       </div>
     </nav>
   </header>
+
   <div class="container is-size-7">
     <a href="../blog/">türkçe</a> &nbsp; | &nbsp;
     <a href="../blog/">english</a>
   </div>
+
   <main role="main">
     <section class="section">
       <div class="content">
@@ -59,6 +89,7 @@
       </div>
     </section>
   </main>
+
   <footer class="footer" role="contentinfo">
     <div class="content has-text-centered">
       <small>
@@ -66,5 +97,7 @@
       </small>
     </div>
   </footer>
+
 </body>
+
 </html>
