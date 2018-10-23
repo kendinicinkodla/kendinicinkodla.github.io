@@ -5,13 +5,17 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>hoşgeldiniz! — kendin için kodla</title>
+  <title>Hoşgeldiniz! — kendin için kodla</title>
 
   <link rel="stylesheet" href="./static/bulmaswatch.min.css" />
   <link rel="stylesheet" href="./static/kendinicinkodla.css" />
 
   <script src="./static/bulma.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+
+  
+  <link rel="stylesheet" href="./static/bulma-carousel.min.css" />
+
 </head>
 
 <body>
@@ -31,18 +35,32 @@
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end">
           
+          <a class="navbar-item" href="./hakkimizda/">
+            <span class="icon">
+              <i class="fa fa-user-friends"></i>
+            </span>
+            <span>Hakkımızda</span>
+          </a>
+          
           <a class="navbar-item" href="./atolyeler/">
             <span class="icon">
               <i class="fab fa-superpowers"></i>
             </span>
-            <span>atölyeler</span>
+            <span>Atölyeler</span>
           </a>
           
-          <a class="navbar-item" href="./biz-kimiz/">
+          <a class="navbar-item" href="./kutuphane/">
             <span class="icon">
-              <i class="fa fa-user-friends"></i>
+              <i class="fa fa-book"></i>
             </span>
-            <span>biz kimiz?</span>
+            <span>Eğitim kütüphanesi</span>
+          </a>
+          
+          <a class="navbar-item" href="./iletisim/">
+            <span class="icon">
+              <i class="fa fa-inbox"></i>
+            </span>
+            <span>İletişim</span>
           </a>
           
         </div>
@@ -53,18 +71,71 @@
   <main>
     <div class="content">
   <section class="hero">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h2 class="subtitle">hoşgeldiniz!</h2>
-        <p>Projemizin henüz planlama aşamasındayız. Yakında içeriklerimizi
-ve etkinliklerimizi duyurmaya başlayacağız.</p>
-<p>Yenilikleri haber almak isterseniz aşağıdaki formu doldurarak
-yazışma grubumuza üye olabilirsiniz.</p>
+    
+    <div class="carousel carousel-animated carousel-animate-slide">
+      <div class="carousel-container">
+        
+          
+  <div class="carousel-item has-background is-active">
+    <a href="#">
+      <img class="is-background"
+           src="/static/banners/./turquoise.png"
+           alt="Turquoise" />
+      <div class="title">Turquoise</div>
+    </a>
+  </div>
 
         
           
+  <div class="carousel-item has-background">
+    <a href="#">
+      <img class="is-background"
+           src="/static/banners/./amethyst.png"
+           alt="Amethyst" />
+      <div class="title">Amethyst</div>
+    </a>
+  </div>
+
+        
           
+  <div class="carousel-item has-background">
+    <a href="#">
+      <img class="is-background"
+           src="/static/banners/./carrot.png"
+           alt="Carrot" />
+      <div class="title">Carrot</div>
+    </a>
+  </div>
+
+        
+      </div>
+      <div class="carousel-navigation">
+        <div class="carousel-nav-left">
+          <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        </div>
+        <div class="carousel-nav-right">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="./static/bulma-carousel.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){
+      var carousels = bulmaCarousel.attach();
+    }, false);
+  </script>
+
+
+  
+  <section class="section">
+    
+    
   <div class="box">
+    <p class="container">
+      Yenilikleri haber almak isterseniz aşağıdaki formu doldurarak
+      yazışma grubumuza üye olabilirsiniz.
+    </p>
     <form action="https://groups.io/g/kendinicinkodla/signup?u=8637121172495632261" method="post" target="_blank">
       <div class="field is-grouped">
         <p class="control is-expanded">
@@ -77,10 +148,8 @@ yazışma grubumuza üye olabilirsiniz.</p>
     </form>
   </div>
 
-        
-      </div>
-    </div>
   </section>
+  
 
     </div>
   </main>
