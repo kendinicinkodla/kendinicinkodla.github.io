@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>Hoşgeldiniz! — kendin için kodla</title>
-  <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/default/bulmaswatch.min.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/bulmaswatch/default/bulmaswatch.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-  <link rel="stylesheet" href="./static/kendinicinkodla.css" />
+  <link rel="stylesheet" href="./static/kendinicinkodla.css">
+
   <script src="./static/bulma-burger.js"></script>
+
   
-  <link rel="stylesheet" href="./static/bulma-carousel.min.css" />
+<link rel="stylesheet" href="./static/bulma-carousel.min.css">
 
 </head>
+
 <body>
   <header>
     <nav class="navbar" aria-label="main navigation">
       <div class="navbar-brand">
         <a class="navbar-item is-active" href="./">
-          <img src="./static/logo.svg" alt="kendin için kodla ana sayfası" title="ana sayfa" />
+          <img id="kik-logo" src="./static/logo.svg" alt="kendin için kodla" title="kendin için kodla">
         </a>
+
         <span role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </span>
       </div>
+
       <div class="navbar-menu" id="navMenu">
         <div class="navbar-end">
           
@@ -52,82 +59,84 @@
       </div>
     </nav>
   </header>
+
   <main class="content">
     
-  <section class="hero">
-    
-    <div class="carousel carousel-animated carousel-animate-slide">
-      <div class="carousel-container">
-        
-          
+<section class="hero">
+  
+  <div class="carousel carousel-animated carousel-animate-slide">
+    <div class="carousel-container">
+      
+      
   <div class="carousel-item has-background is-active">
     <a href="#">
       <img class="is-background"
            src="/static/banners/./belize.png"
-           alt="Banner 1" />
+           alt="Banner 1">
       <div class="title">Başlık 1</div>
     </a>
   </div>
 
-        
-          
+      
+      
   <div class="carousel-item has-background">
     <a href="#">
       <img class="is-background"
            src="/static/banners/./amethyst.png"
-           alt="Banner 2" />
+           alt="Banner 2">
       <div class="title">Başlık 2</div>
     </a>
   </div>
 
-        
-          
+      
+      
   <div class="carousel-item has-background">
     <a href="#">
       <img class="is-background"
            src="/static/banners/./carrot.png"
-           alt="Banner 3" />
+           alt="Banner 3">
       <div class="title">Başlık 3</div>
     </a>
   </div>
 
-        
+      
+    </div>
+    <div class="carousel-navigation">
+      <div class="carousel-nav-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
       </div>
-      <div class="carousel-navigation">
-        <div class="carousel-nav-left">
-          <i class="fa fa-chevron-left" aria-hidden="true"></i>
-        </div>
-        <div class="carousel-nav-right">
-          <i class="fa fa-chevron-right" aria-hidden="true"></i>
-        </div>
+      <div class="carousel-nav-right">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
       </div>
     </div>
-    <script src="./static/bulma-carousel.min.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function(){
-        var carousels = bulmaCarousel.attach();
-      }, false);
-    </script>
-  </section>
+  </div>
+  <script src="./static/bulma-carousel.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var carousels = bulmaCarousel.attach();
+    }, false);
+  </script>
+</section>
 
-  <section class="section">
-    <h2 class="subtitle">Yakında</h2>
+<section class="section">
+  <h2 class="subtitle">Yaklaşan atölyeler</h2>
+
+  
+  <div class="columns">
     
-    <div class="columns">
-      
-        
     
-        
     
-        
     
-        
-          
-      <div class="column">
-        
-<div id="veri-analitigi" data-target="modal-veri-analitigi" class="card workshop">
+    
+    
+    
+    
+    
+    <div class="column">
+    
+<div id="veri-analitigi" data-target="modal-veri-analitigi" class="content card workshop">
   <header class="card-header">
-    <p class="card-header-title">Veri Analitiği</p> 
+    <p class="card-header-title">Veri Analitiği</p>
   </header>
   <div class="card-content">
     <p>Veri işleme, görselleştirme.</p>
@@ -150,7 +159,7 @@
             <h2 class="subtitle">Veri Analitiği</h2>
             <p>
               <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-              <br />
+              <br>
               <p>Python, Jupyter.</p>
 
             </p>
@@ -177,13 +186,13 @@
   <button class="modal-close is-large" aria-label="close"></button>
 </div>
 
-      </div>
-        
-      <div class="column">
-        
-<div id="onyuz" data-target="modal-onyuz" class="card workshop">
+    </div>
+    
+    <div class="column">
+    
+<div id="onyuz" data-target="modal-onyuz" class="content card workshop">
   <header class="card-header">
-    <p class="card-header-title">Önyüz Tasarım</p> 
+    <p class="card-header-title">Önyüz Tasarım</p>
   </header>
   <div class="card-content">
     <p>Web sitesi ve mobil uygulamalar için önyüz tasarlama ve kodlama.</p>
@@ -206,7 +215,7 @@
             <h2 class="subtitle">Önyüz Tasarım</h2>
             <p>
               <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-              <br />
+              <br>
               <p>HTML, CSS.</p>
 
             </p>
@@ -233,13 +242,13 @@
   <button class="modal-close is-large" aria-label="close"></button>
 </div>
 
-      </div>
-        
-      <div class="column">
-        
-<div id="arkayuz" data-target="modal-arkayuz" class="card workshop">
+    </div>
+    
+    <div class="column">
+    
+<div id="arkayuz" data-target="modal-arkayuz" class="content card workshop">
   <header class="card-header">
-    <p class="card-header-title">Arkayüz Geliştirme</p> 
+    <p class="card-header-title">Arkayüz Geliştirme</p>
   </header>
   <div class="card-content">
     <p>Web sitesi ve mobil uygulamalar için arkayüz geliştirme.</p>
@@ -262,7 +271,7 @@
             <h2 class="subtitle">Arkayüz Geliştirme</h2>
             <p>
               <strong>John Smith</strong> <small>@johnsmith</small> <small>31m</small>
-              <br />
+              <br>
               <p>Python, web anaçatısı, REST API.</p>
 
             </p>
@@ -289,46 +298,45 @@
   <button class="modal-close is-large" aria-label="close"></button>
 </div>
 
-      </div>
-        
-      
-    
     </div>
-    <script src="./static/bulma-modal.js"></script>
-  </section>
+    
+    
+    
+  </div>
+  <script src="./static/bulma-modal.js"></script>
+</section>
 
-  
-    
-    
-  <nav class="level is-mobile has-background-grey-lighter">
-    <div class="level-item has-text-centered">
-      <div class="padded">
-        <p class="heading">
-          Yenilikleri haber almak isterseniz aşağıdaki formu doldurarak
-          e-posta listemize üye olabilirsiniz.
-        </p>
-        <form class="title" action="https://groups.io/g/kendinicinkodla/signup?u=8637121172495632261" method="post" target="_blank">
-          <div class="field">
-            <p class="control is-expanded">
-              <input type="email" name="email" value="" class="input" placeholder="e-posta adresim" required>
-            </p>
-            <p class="control has-text-centered">
-              <input type="submit" class="button is-primary" name="subscribe" value="üye ol">
-            </p>
-          </div>
-        </form>
+
+
+
+<section class="section has-background-grey-lighter">
+  <p class="has-text-centered">
+    Yenilikleri haber almak isterseniz e-posta listemize üye olabilirsiniz.
+  </p>
+  <form action="https://groups.io/g/kendinicinkodla/signup?u=8637121172495632261" method="post" target="_blank">
+    <div class="field">
+      <div class="control is-expanded">
+        <input type="email" name="email" value="" class="input" placeholder="e-posta adresim" required>
       </div>
-  </nav>
+    </div>
+    <div class="field">
+      <div class="control has-text-centered">
+        <input type="submit" class="button is-primary" name="subscribe" value="üye ol">
+      </div>
+    </div>
+  </form>
+</section>
 
-  
+
 
   </main>
+
   <footer class="footer">
-    <div class="content has-text-centered">
+    <p class="content has-text-centered">
       <small>
         <strong>kendin için kodla</strong> site içeriği <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY NC ND 4.0</a> lisansına tabidir. &copy; Ayşe Tosun, <time>2018</time>
       </small>
-    </div>
+    </p>
   </footer>
 </body>
 </html>

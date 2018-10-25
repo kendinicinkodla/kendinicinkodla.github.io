@@ -1,13 +1,5 @@
-.navbar-item img {
+img#kik-logo {
   max-height: 3rem;
-}
-
-div.card {
-  margin-bottom: 1rem;
-}
-
-div.padded {
-  padding: 1rem;
 }
 
 .card.workshop {
@@ -16,10 +8,6 @@ div.padded {
 
 .card.workshop:hover {
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
-}
-
-.footer {
-  padding: 2rem;
 }
 
 #lektor-edit-link {
