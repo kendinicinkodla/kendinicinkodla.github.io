@@ -1,0 +1,26 @@
+img#kik-logo {
+  width: auto;
+  max-height: 3rem;
+  filter: invert(100%);
+}
+
+.navbar-item.is-active {
+  color: #b1e3ff !important;
+}
+
+.card.kik .image {
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.card.workshop {
+  border-radius: 20px;
+}
+
+.card.workshop:hover {
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+#lektor-edit-link {
+  top: 100px !important;
+}
