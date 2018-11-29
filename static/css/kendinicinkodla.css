@@ -8,6 +8,10 @@ img#kik-logo {
   color: #b1e3ff !important;
 }
 
+.carousel .title {
+  display: none;
+}
+
 .card.kik .image {
   margin: auto;
   padding-top: 1rem;
@@ -19,8 +23,4 @@ img#kik-logo {
 
 .card.workshop:hover {
   box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
-}
-
-#lektor-edit-link {
-  top: 100px !important;
 }
