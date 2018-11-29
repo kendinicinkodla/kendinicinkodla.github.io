@@ -12,6 +12,10 @@ img#kik-logo {
   display: none;
 }
 
+.subtitle {
+  font-family: "Patrick Hand", sans-serif;
+}
+
 .card.kik .image {
   margin: auto;
   padding-top: 1rem;
@@ -19,7 +23,7 @@ img#kik-logo {
 
 .card.workshop {
   border-radius: 20px;
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 .card.workshop:hover {
