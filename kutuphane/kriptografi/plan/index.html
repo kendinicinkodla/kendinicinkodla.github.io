@@ -71,107 +71,50 @@
       <h2>Süre</h2>
 <p>Atölye her biri yaklaşık 2.5-3 saat süren 4 oturum şeklinde planlanmıştır.</p>
 <h2>Kapsam</h2>
-<p>Atölyede katılımcılar metin içeriği ve görsel malzemeleri önceden
-hazırlanmış bir siteyi adım adım oluştururlar. Bizim örneğimizde
-hayvanlar üzerine bir site üzerinde çalışılıyor.</p>
-<p>Sitede 3 çeşit sayfa bulunur:</p>
-<ul>
-<li><p>Ayrıntı sayfası: Her katılımcı için farklıdır. Bizim örneğimizde
-her katılımcı ayrı bir hayvanın sayfasını hazırlar
-(<a href="../../../kutuphane/kriptografi/plan/sayfa_ayrinti.png">örnek tasarım</a>).</p>
-</li>
-<li><p>Özet sayfası: Herkes için ortaktır. Ayrıntı sayfalarına bağlantıları
-sağlar. Bir giriş sayfası olarak düzenlenebilir
-(<a href="../../../kutuphane/kriptografi/plan/sayfa_ozet.png">örnek tasarım</a>).</p>
-</li>
-<li><p>Etkileşimli sayfa: Kullanıcıdan bilgi alınan formlar içerir
-(<a href="../../../kutuphane/kriptografi/plan/sayfa_form.png">örnek tasarım</a>).
-Arkayüz atölyesine bağlantı amacıyla planlanmıştır.
-Bizim örneğimizde hayvanlar üzerine bir "bilgi oyunu" olarak
-düşünülmüştür.</p>
-</li>
-</ul>
 <h2>Oturumlar</h2>
 <ol>
 <li><p>oturum:</p>
 <ul>
-<li>Oluşturulacak sitenin tanıtımı ve tasarımının açıklanması (10dk).</li>
-<li>Ayrıntı sayfasının HTML kodlaması (3x45dk).</li>
+<li>Python'a giriş (2x45dk).</li>
+<li>Kriptografiye giriş: Sezar şifresi (45dk).</li>
 </ul>
 </li>
 <li><p>oturum:</p>
 <ul>
-<li>Genel tasarım ilkelerinin açıklanması (ders formatında, 45dk).</li>
-<li>Ayrıntı sayfasının CSS kodlaması (2x45dk). Bu kısımda HTML
-kodunda değişiklik gerekmeyen düzenlemeler yapılır.</li>
+<li>Sezar şifresi örneğinde akış denetimi yapıları (3x45).</li>
 </ul>
 </li>
 <li><p>oturum:</p>
 <ul>
-<li>Ayrıntı sayfasının CSS kodlamasına devam (2x45dk). Bu kısımda
-HTML kodunda da değişiklik gerektiren (<code>div</code>, <code>class</code> gibi)
-düzenlemeler yapılır.</li>
-<li>Ayrıntı sayfasının bir CSS anaçatısına göre düzenlenmesi (45dk)
-Bu konuda eğitmenler uygun gördükleri projeyi seçebilir
-(örneğin Bootstrap); biz atölyemizde daha anlaşılır olduğu
-düşüncesiyle <a href="https://bulma.io/">Bulma</a> kullanıyoruz.</li>
+<li>Modüler aritmetik, Vigenere şifresi (3x45dk).</li>
 </ul>
 </li>
 <li><p>oturum:</p>
 <ul>
-<li>Özet sayfasının oluşturulması (2x45dk).</li>
-<li>Etkileşimli sayfanın oluşturulması (45dk).</li>
+<li>Modern yöntemlerin yapıtaşları (75dk).</li>
+<li>Açık anahtar kriptografisi, protokoller (75dk).</li>
 </ul>
 </li>
 </ol>
 <h2>Kaynaklar</h2>
 <ul>
-<li><a href="../../../kutuphane/kriptografi/sunum/">Sunum</a></li>
+<li><p><a href="../../../kutuphane/kriptografi/plan/kriptografi.ipynb">Jupyter not defteri</a></p>
+<p><em>RISE</em> eklentisi kuruluysa sunum olarak da kullanılabilir.</p>
+</li>
 </ul>
 <h2>Notlar</h2>
 <ul>
-<li><p>Örnek siteyle ilgili içeriklerin düz metin dosyaları olarak
-hazırlanması ve aynı şekilde görsellerin uygun şekilde hazır
-bulunması zamanı etkin kullanmak açısından çok önemli.
-Bunların İnternet üzerinden erişilebilir olması katılımcıların
-metinleri ve özellikle link adreslerini elle yazmalarının
-çıkardığı zorlukların önüne geçiyor.</p>
+<li><p>Bu atölye hem programlama hem de kriptografi öğrettiği için
+katılımcılar için çok yorucu olabilir. Duruma göre
+hafifletilmesi gerekmesi olasılığı yüksektir.</p>
 </li>
-<li><p>Bu atölye için özel bir yazılım gerekmiyor. Bir metin düzenleyici
-ve bir tarayıcı ile yapılabilir. Ancak metin düzenleyicinin
-HTML ve CSS için yardımcı olması (renklendirme, girintileme gibi)
-çok yararlı oluyor.</p>
-</li>
-<li><p>Biz atölyemizde <a href="https://pythonanywhere.com/">PythonAnywhere</a>
-sitesini kullandık. Böylece hem sitenin HTML düzenleyicisinden
-yararlanabildik, hem de hazırlanan sayfalar doğrudan İnternet
-üzerinden erişilebilir oldu. Ayrıca sitede öğrenci-öğretmen
-hesapları ayarları yapılırsa katılımcılara örnek dosyaların
-dağıtılması ve ayrıntı sayfalarının bütün katılımcılara
-paylaştırılması çok daha kolay oluyor.</p>
-</li>
-<li><p>İçerik kısmında en çok zorlanılan konu HTML kodlarındaki
-hiyerarşi oluyor. İlk oturumlardan itibaren HTML elemanlarının
-düzgün bir hiyerarşiye sokulmasına vurgu yapmak ve katılımcıların
-yaptıklarını kontrol etmek gerek. Bu yapılmazsa tarayıcı sorunlu
-da olsa HTML kodunu bir şekilde gösteriyor ama CSS kurallarını
-uygulamaya gelince ortalık karışıyor. Bu konuda HTML düzenleyicinin
-"kod katlama" özelliğini kullanmak yararlı (bir eleman düzgün kapatılıp
-açılamıyorsa sorun vardır).</p>
-</li>
-<li><p>Kullanılan CSS anaçatısının temalarını kullanarak sayfaların
-görüntüsünü tamamıyla değiştirmeyi göstermek ilgi çekici.</p>
-</li>
-<li><p>Yukarıda belirtilen sürelere uymak mümkün olmayabilir.
-Bu durumda konu atlamak veya hızlanmak yerine işlenen konunun
-anlaşılmasına öncelik verip gidilebildiği kadar gitmek
-daha doğru olur.</p>
-</li>
-<li><p>Zaman olursa ya da katılımcılara ek proje olarak verilmek
-istenirse bütün ayrıntı sayfalarına bağlantı verecek bir
-derleme sayfası yaptırılabilir (<a href="../../../kutuphane/kriptografi/plan/sayfa_derleme.png">örnek tasarım</a>).
-Bu sayfa katılımcının kendi tasarımına göre değişik
-bileşenlerle gerçekleştirilebilir.</p>
+<li><p>Kaynak olarak bir Jupyter not defteri verilmiş olmakla birlikte
+bu atölyede bu tip bir etkileşimli ortam kullanılması pek etkin
+olmayabilir çünkü sürekli olan kodların geliştirilmesi şeklinde
+ilerlemektedir. Ayrıca adım adım gitme, değişken değerlerini
+inceleme gibi teknikler yardımcı olacaktır. Bu nedenle uygun
+bir geliştirme ortamı seçilmesi önerilir. Biz atölyemizde
+<a href="https://thonny.org/">Thonny</a> kullanıyoruz.</p>
 </li>
 </ul>
 
